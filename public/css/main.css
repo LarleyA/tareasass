@@ -224,4 +224,9 @@ h1 {
   color: #f1e9e9;
   margin: 8px;
 }
+
+#pint:target {
+  border: 2px solid black;
+  color: #57e9c4;
+}
 /*# sourceMappingURL=main.css.map */
