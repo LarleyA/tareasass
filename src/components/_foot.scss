@@ -1,0 +1,16 @@
+.foot{
+    @include setFlex(row, space-evenly);
+}
+
+.foot {
+
+
+      border: $pink-border;
+      color:$color-claro;
+      text-align: center;
+      margin:  8px;
+      padding: 35px 0;
+      background-color: $color-fondo2;
+    
+    
+}

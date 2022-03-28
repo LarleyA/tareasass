@@ -1,0 +1,45 @@
+
+//variables larley
+$color-principal: rgb(167, 64, 124);
+$color-letra:rgb(255, 147, 165);
+$color-fondo1:rgb(223, 157, 160);
+$color-fondo2:rgb(155, 112, 119);
+$color-fondo3:rgb(61, 50, 65);
+$color-claro:white;
+$tamano-cajas:padding 15 px;
+$color-principal2:rgb(44, 30, 39);
+    
+
+//titulo//
+
+h1{ 
+    text-align: center;
+    color: $color-principal2;
+padding: 30px;}    
+
+.titulo{background-color: $color-principal;
+    background-image: url("https://i.pinimg.com/originals/b9/25/db/b925db981bb85a147a982e17a5a97961.gif") ;
+background-repeat: no-repeat; background-size:100%;
+
+}
+
+    //containers
+$fontSizeBase: 10px;
+$primary: pink;
+$warning: rgb(100, 49, 89);
+$danger: rgb(182, 119, 154);
+$dark: black;
+$light: rgb(233, 223, 247);
+$success: rgb(218, 45, 140);
+$info: rgb(221, 90, 38); 
+
+$shadow: 2px 2px 5px 2px rgb(151, 146, 146);
+
+
+//labels//
+$primaryLabel: 'primary';
+$successLabel: 'success';
+$warningLabel: 'warning';
+$dangerLabel: 'danger';
+$infoLabel: 'info';
+$darkLabel: 'dark';

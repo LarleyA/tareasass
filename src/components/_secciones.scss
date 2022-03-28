@@ -1,0 +1,20 @@
+.secciones{
+    @include setFlex(row, space-evenly);
+}
+
+.secciones {
+    display: flex;
+    > * {
+      border: $black-border;
+      text-align: center;
+      margin:  8px;
+      padding: 96px 0;
+      background-color: $color-fondo2;
+    }
+    aside {
+      flex: 0 1 25%;
+    }
+    article {
+      flex: 0 1 50%;
+    }
+}

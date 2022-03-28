@@ -1,0 +1,18 @@
+.box1 {
+    background-color: $color-fondo1;
+    border: $danger;
+    font-size: large;
+    padding: 15px;
+
+}
+
+.box2 {
+   
+    border: $danger;
+    font-size: large;
+    padding: 15px;
+
+}
+.container{
+    @include setFlex(row, space-evenly);
+}

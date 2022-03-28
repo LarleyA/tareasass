@@ -1,0 +1,43 @@
+@mixin setButton ($color){
+    border-color: $color;
+    transition: all 250ms ease-in-out;
+
+&:hover{
+    background-color: $color;
+    color:$light;
+}
+}
+.btn {
+    background-color: $color-principal;
+    color:$color-claro ;
+    text-decoration: none;
+    padding: 3px;
+    margin: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+   box-shadow: $shadow;
+
+    &:hover{
+        border-width: 0px;
+    }
+
+    &-#{$primaryLabel}{
+        @include setButton($primary);
+    }
+
+    &-#{$warningLabel}{
+        @include setButton($warning);
+    }
+    &-#{$dangerLabel}{
+        @include setButton($danger);
+    }
+    &-#{$successLabel}{
+        @include setButton($success);
+    }
+    &-#{$infoLabel}{
+        @include setButton($info);
+    }
+
+}
+

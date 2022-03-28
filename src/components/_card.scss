@@ -1,0 +1,39 @@
+
+.card{
+    background: $color-fondo2;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 1px 1px 12px 0 px black;
+    text-align: center;
+    color: rgb(241, 233, 233);
+}
+.avatar {width: 230px;
+height: 230px;
+border-radius: 100px;}
+
+.card1{
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 1px 1px 12px 0 px black;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.card2{
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 1px 1px 12px 0 px black;
+    text-align: center;
+    color: rgb(241, 233, 233);
+}
+
+.card3{
+    
+    background: $color-fondo3;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 1px 1px 12px 0 px black;
+    text-align: center;
+    color: rgb(241, 233, 233);
+    margin: 8px;
+}
